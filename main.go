@@ -20,6 +20,7 @@ func getHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 // Handler for the POST request
+// {"message": "task1"}
 func postHandler(w http.ResponseWriter, r *http.Request) {
 	var reqBody requestBody
 
